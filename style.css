@@ -25,23 +25,24 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #006f5d;
 }
 
 .imgindice {
     width: 100%;
     display:block;
-    margin:auto;
+    margin: auto;
 }
 
 .menu {
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 180px;
+    width: 50%;
+    background-color: #006f5d;
 }
 
 .menu p{
