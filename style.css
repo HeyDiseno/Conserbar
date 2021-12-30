@@ -28,13 +28,8 @@ body {
     background-color: #006f5d;
 }
 
-.bodyportada {
-    background-image: url('img/pattern.jpg');
-    background-repeat: repeat;
-}
-
 .imgindice {
-    width: 150x;
+    width: 80%;
     padding: 20px;
     display:block;
     margin:auto;
