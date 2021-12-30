@@ -29,8 +29,7 @@ body {
 }
 
 .imgindice {
-    width: 80%;
-    padding: 20px;
+    width: 100%;
     display:block;
     margin:auto;
 }
@@ -47,7 +46,7 @@ body {
 
 .menu p{
     border-bottom: 1px solid white;
-    padding: 22px;
+    padding: 10%;
     font-family: Recoleta;
     font-size: 12pt;
     text-align: center;
