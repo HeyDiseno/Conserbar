@@ -18,6 +18,11 @@
     src: url("./fonts/Texta-It.otf") format("opentype");
 }
 
+.bodyportada {
+    background-image: url('img/fotoindice.png');
+    background-size: cover;
+}
+
 .containerindice {
     width: 100%;
     height: 650px;
@@ -42,7 +47,6 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 50%;
-    background-color: #006f5d;
 }
 
 .menu p{
