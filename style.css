@@ -30,7 +30,7 @@
 }
 
 body {
-    background-color: #006f5d;
+    background-color: black;
 }
 
 .imgindice {
@@ -187,7 +187,7 @@ span {
 #navbar {
     width: 100%;
     overflow: hidden;
-    background-color: #006f5d;
+    background-color: black;
   }
   
   /* Navbar links */
