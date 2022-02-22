@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas & Picoteo</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+</head>
+<body class="bodymenu">
+  <div id="navbar"><ul>
+    <li><a href="./cocktails_autor.html">| Cocktails de Autor |</a></li>
+    <li><a href="./cocktails_clasicos.html">| Cocktails Clásicos |</a></li>
+    <li><a href="./picoteos_tablas.html">| Picoteos & Tablas |</a></li>
+    <li><a href="./comida.html">| Comida |</a></li>
+    <li><a href="./bebestibles.html">| Bebestibles |</a></li>
+  </ul>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+  </div>
+    <div class="container">
+      <h1>Picoteos & Tablas</h1>
+
+      <!--LOS PRECIOS SE CAMBIAN EN EL DIV CLASS="PRICE" QUE ESTÁ DEBAJO DE LOS NOMBRES.-->
+
+          <table>
+            <tbody>
+              <!--INICIO DE UN PRODUCTO-->
+              <tr>
+                <td><h2>Dicen que es un Tar Tar</h2></td>
+                <td><div class="price">$8.500</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Cubos de atún fresco, pebre seco y papaya, sobre una cama de emulsión de palta, hidratado con una salsa de oliva, jengibre, limón, unagi y soya. La corona de almendras laminadas para el toque crujiente no podía faltar.</p></td>
+              </tr>
+              <!--FIN DE UN PRODUCTO-->
+              <tr>
+                <td class="lineup"><h2>Algo así como un Carpaccio</h2></td>
+                <td class="lineup"><div class="price">$8.800</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Laminas de atún fresco, emulsión de palta, verde de cebollín, almendras laminadas, queso parmesano rallado, bañado en aceite de oliva, limón y soya, terminado con un toque de sal del Himalaya y pimienta negra.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Langostinos, a secas, pero no secos</h2></td>
+                <td class="lineup"><div class="price">$9.200</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Langostinos a la plancha, cocinados en una vinagreta de Pisco transparente, vinagre de vino blanco, oliva, limón, sal y pimienta. Terminados con un toque de ciboulette y acompañados de una emulsión de champiñon parís y curry amarillo.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Ceviche Parisino</h2></td>
+                <td class="lineup"><div class="price">$7.500</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Con una base de champiñon parís, manzana verde y durazno conservero preparamos nuestro ceviche vegano que viene, por supuesto, acompañado de cebolla morada, choclo peruano y canchita serrana. La leche de tigre tiene toques de jengibre, oliva, limón.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Berenjenas a la Conser-Veggi-bar</h2></td>
+                <td class="lineup"><div class="price">$7.500</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Como una lasagna pero al estilo ConserBar. Laminas de berenjena al dente, zapallo italiano, queso vegano y almendras laminadas. Todo bañado en una salsa pomodoro de la casa que se roba la movie.</p></td>
+              </tr>
+                  <tr>
+                <td class="lineup"><h2>Tofu y verduras en Panko</h2></td>
+                <td class="lineup"><div class="price">$7.500</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Tofu con bastones de zanahoria, zapallo italiano y aros de cebolla marinados en oliva, sal y pimienta, bañados en un batido de harina, orégano y Kunstman Torobayo. Terminados en Panko y acompañados de una vinagreta de soya, oliva, limón, sal y pimienta.</p></td>
+              </tr>
+                  <tr>
+                <td class="lineup"><h2>Mini Brochetas</h2></td>
+                <td class="lineup"><div class="price">$8.800</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>4 brochetas de carne (lomo), pollo, choricillo y pimentón de decoración.</p></td>
+              </tr>
+                <tr>
+                <td class="lineup"><h2>Mini Sopaipillas con Pebre</h2></td>
+                <td class="lineup"><div class="price">$4.000</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Mini sopaipillas fritas acompañadas de pebre.</p></td>
+              </tr>
+               <tr>
+                <td class="lineup"><h2>Trilogía Mini Empanadas</h2></td>
+                <td class="lineup"><div class="price">$5.500</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>3 Mini empanaditas fritas: Pino, Mechada Queso y Prieta Pastelera. Acompañadas con pebre.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Chorrillana</h2></td>
+                <td class="lineup"><div class="price">$11.800</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Bastones de papas rústicas , lomo liso, cebolla caramelizada y 2 huevos fritos.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Choripancitos</h2></td>
+                <td class="lineup"><div class="price">$5.200</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Nuestra versión del clásico choripán. Longaniza artesanal sobre tostadas de baguette, con pebre y lactonesa.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Tapa de Charcutería</h2></td>
+                <td class="lineup"><div class="price">$5.200</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Selección de quesos y charcutería acompañado de encurtidos y frutas de estación.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Tapa Veggie</h2></td>
+                <td class="lineup"><div class="price">$5.200</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Dos tortillas de vegetales salteados (pimentón, choclo y zapallo italiano) acompañadas de frutos secos, pepinilllos, aceitunas y nuestro clásico paté de champiñón con tostadas para untar.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Tabla Clásica</h2></td>
+                <td class="lineup"><div class="price">$26.900</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Ideal para 4 Personas. Compuesta por Quesos, Charcutería, Salsa de Pimentón, Frutos Secos, Papas Tika, Tomate Cherry, Aceituna, Pepinillos, Fruta de la estación y Pan Baguette.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Tabla Vegana</h2></td>
+                <td class="lineup"><div class="price">$28.900</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Ideal para 4 Personas<br>
+                  - 4 Quesadillas con vegetales salteados (pimentón, choclo y zapallo italiano) con queso vegano y tortilla vegana.<br>
+                  - Trilogía de exquisitos Dips: Hummus con Pimentón, Dip Palmito-Cilantro, y un Paté de Champiñones. Incluimos chips.<br>
+                  - Selección de Frutos secos.<br>
+                  - Para complementar incluye chips de vegetales (Buka) frutillas, uvas, tomate cherry, aceitunas y pepinillos.</p></td>
+              </tr>
+              <tr>
+                <td class="lineup"><h2>Tabla Criolla</h2></td>
+                <td class="lineup"><div class="price">$29.900</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="linedown"><p>Ideal para 4 Personas: <br>
+                  - 4 Anticuchitos de carne (lomo), pollo, choricillo y pimentón.<br>
+                  - 4 empanaditas fritas: pino, mechada queso y pastelera prieta.<br>
+                  - 2 Pastelitos de Choclo.<br>
+                  - Pebre, Sopaipillitas, Dulces chilenos.<br></p></td>
+              </tr>
+            </tbody>
+            </table>
+            <br><br>
+            <a href="./index.html" class="returnindex">» Volver al índice</a>
+    </div>
+</body>
+</html>
